@@ -1,0 +1,21 @@
+
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+
+# Project root directory
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Load environment variables from the project root .env file
+load_dotenv(BASE_DIR / ".env")
+
+# Gemini configuration
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+
+# Browser configuration
+HEADLESS = False
+DEFAULT_TIMEOUT_MS = 30000
+NAVIGATION_TIMEOUT_MS = 60000
