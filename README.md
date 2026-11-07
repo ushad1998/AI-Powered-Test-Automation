@@ -16,6 +16,13 @@ At the end, it displays whether the test passed or failed.
 - **Pydantic** – Validates generated test plans
 - **python-dotenv** – Loads API credentials from environment variables
 
+## ScreenShots
+<img src="screenshots/Screenshot%20(128).png" alt="Project Screenshot" width="800">
+<img src="screenshots/Screenshot%20(130).png" alt="Project Screenshot" width="800">
+<img src="screenshots/Screenshot%20(133).png" alt="Project Screenshot" width="800">
+<img src="screenshots/Screenshot%20(134).png" alt="Project Screenshot" width="800">
+<img src="screenshots/Screenshot%20(135).png" alt="Project Screenshot" width="800">
+
 ## How It Works
 
 1. The user enters a test instruction in plain English.
